@@ -9,4 +9,4 @@ Usage:
 Upon execution, the script will prompt the user to specify the destination folder where the contents of the updated application will be deployed.
 
 Known Bugs:
-    Currently, the unzipping process is flawed, as it fails to properly ignore certain files and replaces them in the destination folder. This issue requires fixing for seamless deployment.
+  Currently, the unzipping process is flawed, as it fails to properly ignore certain files and replaces them in the destination folder. This issue requires fixing for seamless deployment.
