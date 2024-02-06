@@ -1,0 +1,12 @@
+Description:
+This script automates the deployment process for the application. It simplifies the task of updating the deployed version by incorporating necessary steps into a single executable.
+
+Prerequisites/Conditions:
+  1. Both the deployment script and the updated version of the application packaged in a zip file must reside in the same directory.
+  2. The zip file containing the updated application must be named "Build.zip".
+
+Usage:
+Upon execution, the script will prompt the user to specify the destination folder where the contents of the updated application will be deployed.
+
+Known Bugs:
+    Currently, the unzipping process is flawed, as it fails to properly ignore certain files and replaces them in the destination folder. This issue requires fixing for seamless deployment.
